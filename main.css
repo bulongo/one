@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Bomb Da Gone', sans-serif;
+    /*background-color:  #e1ad01 this yellow is brighter*/
+}
+
+body {
+    //background:#daa520;
+    background-color: #eee;
+    /* why isn't it working here */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    background-color: #222;
+    box-shadow: 5px 5px 5px 5px #daa520;
+}
+
+header a {
+    text-decoration: none;
+    color: #daa520;
+    text-transform: uppercase;
+}
+
+header li a:hover {
+    color: darkcyan;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+button {
+    background-color: darkcyan;
+    padding: 0 0.5em 0 0.5em;
+    border-radius: 10%;
+}
+
+.pix {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.bulo1 {
+    width: 470px;
+}
+
+.bulo2 {
+    width: 500px;
+}
+
+.aod {
+    font-size: 60px;
+    rotate: 40deg;    
+    margin-top: 180px;
+    margin-left: 0px;
+    flex-shrink: 80px;
+    align-items: center;
+    height: 80px;
+    color: #daa520;
+}
